@@ -3,7 +3,7 @@ LABEL maintainer="Guido Schmutz <guido.schmutz@trivadis.com>"
 
 WORKDIR /mlflow/
 
-ARG MLFLOW_VERSION=1.20.1
+ARG MLFLOW_VERSION=1.23.1
 RUN mkdir -p /mlflow/ \
   && apt-get update && apt-get install -y \
     build-essential \
